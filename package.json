@@ -1,0 +1,51 @@
+{
+  "name": "react-native-timeago-simple",
+  "version": "0.0.1",
+  "description": "Can be extended and it is very simple, currently only support zh and en",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "jest": "^17.0.3",
+    "react-native": "^0.37.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.1.1",
+    "babel-jest": "^17.0.2",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react-native": "^1.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "coveralls": "^2.11.9",
+    "eslint": "^3.7.1",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-react": "^6.7.1",
+    "jest": "^17.0.3",
+    "jest-cli": "^16.0.1",
+    "jest-react-native": "^17.0.3",
+    "nyc": "^6.4.0",
+    "react": "15.4.0",
+    "react-native": "^0.37.0",
+    "react-test-renderer": "^15.4.0",
+    "webpack": "^1.13.2",
+    "yargs": "^6.0.0"
+  },
+  "scripts": {
+    "build": " webpack --mode=build",
+    "dev": "webpack --progress --colors --watch --mode=dev",
+    "test": "nyc jest ./__tests__",
+    "lint": "eslint src/"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "keywords": [
+    "modules",
+    "node"
+  ],
+  "author": "vaiii",
+  "license": "MIT"
+}
